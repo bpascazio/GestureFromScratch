@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C14F02D41B8BDBC9005879B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F02D31B8BDBC9005879B2 /* AppDelegate.swift */; };
 		C14F02D61B8BDBC9005879B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F02D51B8BDBC9005879B2 /* ViewController.swift */; };
-		C14F02D91B8BDBC9005879B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14F02D71B8BDBC9005879B2 /* Main.storyboard */; };
 		C14F02DB1B8BDBC9005879B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14F02DA1B8BDBC9005879B2 /* Images.xcassets */; };
 		C14F02DE1B8BDBC9005879B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14F02DC1B8BDBC9005879B2 /* LaunchScreen.xib */; };
 		C14F02EA1B8BDBC9005879B2 /* GestureFromScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F02E91B8BDBC9005879B2 /* GestureFromScratchTests.swift */; };
@@ -30,7 +29,6 @@
 		C14F02D21B8BDBC9005879B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14F02D31B8BDBC9005879B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C14F02D51B8BDBC9005879B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C14F02D81B8BDBC9005879B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C14F02DA1B8BDBC9005879B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C14F02DD1B8BDBC9005879B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C14F02E31B8BDBC9005879B2 /* GestureFromScratchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureFromScratchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +77,6 @@
 			children = (
 				C14F02D31B8BDBC9005879B2 /* AppDelegate.swift */,
 				C14F02D51B8BDBC9005879B2 /* ViewController.swift */,
-				C14F02D71B8BDBC9005879B2 /* Main.storyboard */,
 				C14F02DA1B8BDBC9005879B2 /* Images.xcassets */,
 				C14F02DC1B8BDBC9005879B2 /* LaunchScreen.xib */,
 				C14F02D11B8BDBC9005879B2 /* Supporting Files */,
@@ -192,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14F02D91B8BDBC9005879B2 /* Main.storyboard in Resources */,
 				C14F02DE1B8BDBC9005879B2 /* LaunchScreen.xib in Resources */,
 				C14F02DB1B8BDBC9005879B2 /* Images.xcassets in Resources */,
 			);
@@ -236,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C14F02D71B8BDBC9005879B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C14F02D81B8BDBC9005879B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C14F02DC1B8BDBC9005879B2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
