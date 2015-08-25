@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    let tapRec = UITapGestureRecognizer()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,8 +24,15 @@ class SecondViewController: UIViewController {
             CGRect(x: viewFrame.origin.x, y: viewFrame.origin.y, width: viewFrame.width, height: viewFrame.height))
         view.backgroundColor = UIColor.redColor()
         self.view.addSubview(view)
+        tapRec.addTarget(self, action: "doubleTappedView")
+        tapRec.numberOfTapsRequired = 2
+        view.addGestureRecognizer(tapRec)
     }
-
+    
+    func doubleTappedView(){
+        println("view was double tapped")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
