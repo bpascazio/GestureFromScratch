@@ -32,6 +32,8 @@ class ViewController: UIViewController {
 
     func swipedView(){
         println("view was swiped")
+        let vc = SecondViewController()
+        self.presentViewController(vc, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
